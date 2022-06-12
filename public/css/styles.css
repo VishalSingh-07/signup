@@ -15,8 +15,8 @@ body {
     padding-top: 40px;
     padding-bottom: 40px;
     font-family: 'Gentium Plus', serif;
-    /* background-color:var(--violet);
-  background-image: url(../Image/bg-desktop.svg); */
+    background-color: var(--violet);
+    background-image: url(../Image/bg-desktop.svg);
     color: darkgrey;
 }
 
@@ -150,6 +150,15 @@ i.logo {
   }
 } */
 @media screen and (min-width:381px) and (max-width:767px) {
+    body {
+        display: flex;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: white;
+        background-image: none;
+    }
+
     .form-signin {
         width: 74%;
         height: 100%;
@@ -173,6 +182,15 @@ i.logo {
 }
 
 @media screen and (min-width:100px) and (max-width:380px) {
+    body {
+        display: flex;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: white;
+        background-image: url(../Image/bg-desktop.svg);
+    }
+
     .form-signin {
         width: 80%;
         height: 110%;
@@ -197,15 +215,6 @@ i.logo {
 
 /* For Tablet */
 @media screen and (min-width:768px) and (max-width:1023px) {
-    body {
-        display: flex;
-        align-items: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: var(--violet);
-        background-image: url(../Image/bg-desktop.svg);
-    }
-
     .form-signin {
         width: 54%;
         height: 110%;
@@ -225,15 +234,6 @@ i.logo {
         background-color: white;
         border-radius: 30px;
     }
-
-    body {
-        display: flex;
-        align-items: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: var(--violet);
-        background-image: url(../Image/bg-desktop.svg);
-    }
 }
 
 @media screen and (min-width:1201px) and (max-width:1600px) {
@@ -244,25 +244,5 @@ i.logo {
         margin: auto;
         background-color: white;
         border-radius: 30px;
-    }
-
-    body {
-        display: flex;
-        align-items: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: var(--violet);
-        background-image: url(../Image/bg-desktop.svg);
-    }
-}
-
-@media screen and (min-width:1601px){
-    body {
-        display: flex;
-        align-items: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: var(--violet);
-        background-image: url(../Image/bg-desktop.svg);
     }
 }
