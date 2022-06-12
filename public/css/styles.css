@@ -146,11 +146,11 @@ i.logo{
     font-size: 1.5rem;
   }
 } */
-@media screen and (max-width:767px)
+@media screen and (min-width:381px) and (max-width:767px)
 {
     .form-signin 
     {
-        width: 70%;
+        width: 74%;
         height:100%;
         padding: 30px 20px 10px 20px;
         margin: auto;
@@ -160,7 +160,7 @@ i.logo{
     }
     .big-heading
     {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
     .btn
     {
@@ -171,6 +171,32 @@ i.logo{
       font-size: 4rem;
     }
   
+
+}
+@media screen and (min-width:100px) and (max-width:380px)
+{
+  .form-signin 
+    {
+        width: 80%;
+        height:100%;
+        padding: 30px 20px 10px 20px;
+        margin: auto;
+        background-color: white;
+        border-radius: 20px;
+
+    }
+    .big-heading
+    {
+      font-size: 1.8rem;
+    }
+    .btn
+    {
+      width:60%;
+    }
+    i.logo
+    {
+      font-size: 4rem;
+    }
 
 }
 /* For Tablet */
@@ -187,16 +213,32 @@ i.logo{
 
     }
 }
-@media screen and (min-width:1024px) and (max-width:1870px)
+
+@media screen and (min-width:1024px) and (max-width:1200px)
 {
   .form-signin 
   {
         width: 54%;
-        height:110%;
+        height:103%;
         padding: 40px 30px 20px 30px;
         margin: auto;
         background-color: white;
         border-radius: 30px;
 
   }
+}
+@media screen and (min-width:1201px) and (max-width:1600px)
+{
+   .form-signin 
+  {
+        width: 44%;
+        height:103%;
+        padding: 40px 30px 20px 30px;
+        margin: auto;
+        background-color: white;
+        border-radius: 30px;
+
+  }
+
+
 }
