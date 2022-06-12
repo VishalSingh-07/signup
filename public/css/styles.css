@@ -188,7 +188,7 @@ i.logo {
         padding-top: 40px;
         padding-bottom: 40px;
         background-color: white;
-        background-image: url(../Image/bg-desktop.svg);
+        background-image: none;
     }
 
     .form-signin {
