@@ -149,7 +149,7 @@ i.logo {
     font-size: 1.5rem;
   }
 } */
-@media screen and (min-width:381px) and (max-width:767px) {
+@media screen and (min-width:381px) and (max-width:768px) {
     body {
         display: flex;
         align-items: center;
@@ -217,7 +217,7 @@ i.logo {
 @media screen and (min-width:768px) and (max-width:1023px) {
     .form-signin {
         width: 54%;
-        height: 110%;
+        height: 70%;
         padding: 40px 30px 20px 30px;
         margin: auto;
         background-color: white;
