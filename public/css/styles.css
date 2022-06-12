@@ -124,14 +124,14 @@ i.logo{
 {
   border: 2px solid black;
 }
-
+/* 
 
 @media (min-width: 768px) 
 {
   
   .form-signin 
   {
-      width: 22%;
+      width: 30%;
       height:82%;
      
       padding: 40px 30px 20px 30px;
@@ -145,7 +145,7 @@ i.logo{
   .bd-placeholder-img-lg {
     font-size: 1.5rem;
   }
-}
+} */
 @media screen and (max-width:767px)
 {
     .form-signin 
